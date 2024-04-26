@@ -39,7 +39,7 @@ for m_ab in M_ab:
                 ans.remove((a,n))
                 ans.append((delete_line,n))
                 #print(a,delete_line,n)
-                print(ans)
+                #print(ans)
                 break
 
 print(len(ans))
