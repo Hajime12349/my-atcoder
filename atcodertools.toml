@@ -1,0 +1,11 @@
+[codestyle]
+lang="python"
+workspace_dir="C:\Taguchi\git\Atcoder"
+template_file="C:\Taguchi\git\Atcoder\_template.py"
+
+[etc]
+in_example_format="test/sample-{}.in"
+out_example_format="test/sample-{}.out"
+
+[submit]
+submit_filename="main.py"

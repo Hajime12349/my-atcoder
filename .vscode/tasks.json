@@ -1,0 +1,30 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "AtCoder_Test",
+            "type": "shell",
+            "command": "sh ${workspaceFolder}/tools/test.sh ${workspaceFolder} ${fileDirname} ${fileBasename}",
+            // "command": "python ${workspaceFolder}/tools/test.py ${workspaceFolder} ${fileDirname} ${fileBasename}",
+            "presentation": {
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "clear": true,
+            }
+        },
+        {
+            "label": "AtCoder_Submit",
+            "type": "shell",
+            "command": "sh ${workspaceFolder}/tools/submit.sh ${workspaceFolder} ${fileDirname} ${fileBasename}",
+            "presentation": {
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "clear": true,
+            }
+        }
+    ]
+}
