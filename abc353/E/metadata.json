@@ -1,0 +1,17 @@
+{
+ "code_filename": "main.py",
+ "judge": {
+  "judge_type": "normal"
+ },
+ "lang": "python",
+ "problem": {
+  "alphabet": "E",
+  "contest": {
+   "contest_id": "abc353"
+  },
+  "problem_id": "abc353_e"
+ },
+ "sample_in_pattern": "test/sample-*.in",
+ "sample_out_pattern": "test/sample-*.out",
+ "timeout_ms": 2000
+}

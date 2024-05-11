@@ -1,0 +1,14 @@
+sh tools/download_problem.sh abc351
+
+{
+    "key": "ctrl+shift+c",
+    "command": "workbench.action.tasks.runTask",
+    "when": "editorTextFocus",
+    "args": "AtCoder_Test"
+},
+{
+    "key": "cmd+ctrl+shift+s",
+    "command": "workbench.action.tasks.runTask",
+    "when": "editorTextFocus",
+    "args": "AtCoder_Submit"
+}
