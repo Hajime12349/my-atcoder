@@ -1,0 +1,19 @@
+{
+ "code_filename": "main.py",
+ "judge": {
+  "diff": 1e-09,
+  "error_type": "absolute_or_relative",
+  "judge_type": "decimal"
+ },
+ "lang": "python",
+ "problem": {
+  "alphabet": "G",
+  "contest": {
+   "contest_id": "abc356"
+  },
+  "problem_id": "abc356_g"
+ },
+ "sample_in_pattern": "test/sample-*.in",
+ "sample_out_pattern": "test/sample-*.out",
+ "timeout_ms": 2000
+}

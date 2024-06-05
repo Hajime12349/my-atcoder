@@ -1,34 +1,32 @@
 import sys
+
 sys.setrecursionlimit(999999999)
 
 
+
 def main():
-    N=int(input())
-    #S=input().split()
-    A=list(map(int,input().split()))
-    
-    p=pow(10,8)
-    #A=[]
-    #for _ in range(N):
-    #    A.append(list(map(int,input().split())))
-    sum=0
-    bef=0
-    c=0
-    for n in range(1,N):
-        v=A[N-n]+A[N-n-1]
-        t=n*v+bef
-        print(t)
-        c+=int(t/p)
-        sum+=t
-        bef=v+bef
-    
-    ans=(sum%p)+(c*p)
+    N = int(input())
+    A = list(map(int, input().split()))
+    M = 10**8
 
-    print(ans)
-    
+    cnt = [0] * (M + 1)
+    for a in A:
+        cnt[a] += 1
+    for i in range(M):
+        cnt[i + 1] += cnt[i]
 
+    p = 0
+    for a in A:
+        diff=M-a
+        p+=N-cnt[diff-1]
+        if a*2>=M:
+            p-=1
+    
+    print((N-1)*sum(A)-(p//2)*M)
     pass
+
 
 
 if __name__ == "__main__":
     main()
+
