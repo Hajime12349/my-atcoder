@@ -1,0 +1,17 @@
+{
+ "code_filename": "main.py",
+ "judge": {
+  "judge_type": "normal"
+ },
+ "lang": "python",
+ "problem": {
+  "alphabet": "E",
+  "contest": {
+   "contest_id": "arc180"
+  },
+  "problem_id": "arc180_e"
+ },
+ "sample_in_pattern": "test/sample-*.in",
+ "sample_out_pattern": "test/sample-*.out",
+ "timeout_ms": 2000
+}
